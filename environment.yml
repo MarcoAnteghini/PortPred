@@ -7,7 +7,7 @@ dependencies:
 - pip:
   - py-entangle
 - biopython
-- bio_embeddings[all]
+- bio-embeddings[all]
 - numpy=1.21.6
 - pandas=1.3.5
 - tqdm=4.64.1
