@@ -93,7 +93,7 @@ def load_unirep_embedding(dire, dictio=False):
     emb_list, emb_ids = [], []
     for e in os.listdir(dire):
         # print(e[:-11])
-        emb_list.append(np.load(dire+'/'+e))
+        emb_list.append(np.load(dire+'/'+e,allow_pickle=True))
         ids = e[:-11]
         emb_ids.append(str(ids))
     emb = np.asarray(emb_list)
