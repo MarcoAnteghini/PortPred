@@ -1,4 +1,3 @@
-Protein ID list:
 D3ZHR2
 Q92968
 Q6FM42
